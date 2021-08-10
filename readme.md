@@ -5,7 +5,7 @@ A sandbox for implementing examples from
 
 ## Covered topics
 
-- [ ] Getting started
+- [x] Getting started
 - [ ] Asset management
 - [ ] Output management
 - [ ] Development
