@@ -17,7 +17,7 @@ A sandbox for implementing examples from
 - [ ] Content security policies
 - [ ] Development - Vagrant
 - [ ] Dependency management
-- [ ] Installation
+- [x] Installation
 - [ ] Scaffolding
 - [ ] Hot module replacement
 - [ ] Tree shaking
