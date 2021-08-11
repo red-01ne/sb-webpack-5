@@ -3,9 +3,10 @@
   "description": "A sandbox for implementing examples from webpack 5 guides.",
   "private": true,
   "scripts": {
-    "latest": "webpack --config sandbox/02-asset-management/webpack.config.js",
+    "latest": "webpack --config sandbox/03-output-management/webpack.config.js",
     "getting-started": "webpack --config sandbox/01-getting-started/webpack.config.js",
-    "asset-management": "webpack --config sandbox/02-asset-management/webpack.config.js"
+    "asset-management": "webpack --config sandbox/02-asset-management/webpack.config.js",
+    "output-management": "webpack --config sandbox/03-output-management/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "css-loader": "^6.2.0",
     "csv-loader": "^3.0.3",
+    "html-webpack-plugin": "^5.3.2",
     "json5": "^2.2.0",
     "style-loader": "^3.2.1",
     "toml": "^3.0.0",
