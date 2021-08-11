@@ -6,7 +6,7 @@ A sandbox for implementing examples from
 ## Covered topics
 
 - [x] Getting started
-- [ ] Asset management
+- [x] Asset management
 - [ ] Output management
 - [ ] Development
 - [ ] Code splitting

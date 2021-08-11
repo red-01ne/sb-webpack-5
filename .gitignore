@@ -9,3 +9,4 @@ node_modules/
 
 # exceptions
 !/sandbox/01-getting-started/dist/index.html
+!/sandbox/02-asset-management/dist/index.html
