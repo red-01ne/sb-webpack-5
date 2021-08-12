@@ -1,0 +1,8 @@
+header > h1 {
+    text-align: center;
+}
+
+header > button {
+    display: block;
+    margin: 0 auto 30px;
+}

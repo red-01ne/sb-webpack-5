@@ -8,7 +8,7 @@ A sandbox for implementing examples from
 - [x] Getting started
 - [x] Asset management
 - [x] Output management
-- [ ] Development
+- [x] Development
 - [ ] Code splitting
 - [ ] Caching
 - [ ] Authoring libraries

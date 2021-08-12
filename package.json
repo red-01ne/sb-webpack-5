@@ -3,10 +3,14 @@
   "description": "A sandbox for implementing examples from webpack 5 guides.",
   "private": true,
   "scripts": {
-    "latest": "webpack --config sandbox/03-output-management/webpack.config.js",
+    "latest": "node sandbox/04-development/server.js",
     "getting-started": "webpack --config sandbox/01-getting-started/webpack.config.js",
     "asset-management": "webpack --config sandbox/02-asset-management/webpack.config.js",
-    "output-management": "webpack --config sandbox/03-output-management/webpack.config.js"
+    "output-management": "webpack --config sandbox/03-output-management/webpack.config.js",
+    "development": "webpack --config sandbox/04-development/webpack.config.js",
+    "development:watch-mode": "webpack --watch --config sandbox/04-development/webpack.config.js",
+    "development:dev-server": "webpack serve --open --config sandbox/04-development/webpack.config.js",
+    "development:dev-middleware": "node sandbox/04-development/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,12 +25,15 @@
   "devDependencies": {
     "css-loader": "^6.2.0",
     "csv-loader": "^3.0.3",
+    "express": "^4.17.1",
     "html-webpack-plugin": "^5.3.2",
     "json5": "^2.2.0",
     "style-loader": "^3.2.1",
     "toml": "^3.0.0",
     "webpack": "^5.49.0",
     "webpack-cli": "^4.7.2",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-dev-server": "^3.11.2",
     "xml-loader": "^1.2.1",
     "yamljs": "^0.3.0"
   },
